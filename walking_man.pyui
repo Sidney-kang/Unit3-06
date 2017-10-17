@@ -1,0 +1,47 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "E8D6C71B-BD02-4C0B-ADEE-5C764F5D4911",
+          "name" : "show_man_button",
+          "action" : "walking_man_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Show Walking Man"
+        },
+        "frame" : "{{163, 82}, {203, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "man_walking_image",
+          "uuid" : "F6C53E5F-A326-4D0D-9034-C5CBB67FB3FA",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{223, 164}, {100, 100}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
